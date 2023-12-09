@@ -1,0 +1,137 @@
+$date
+Sat Dec  9 12:38:37 2023
+$end
+$version
+Riviera-PRO Version 2022.04.117.8517
+$end
+$timescale
+1 ns
+$end
+
+$scope module tb_top $end
+
+$scope module alu_if $end
+$var reg 8 ! in0 [7:0] $end
+$var reg 8 " in1 [7:0] $end
+$var reg 1 # en $end
+$var reg 3 $ sel [2:0] $end
+$var reg 16 % out [15:0] $end
+$upscope $end
+
+
+$scope module t1 $end
+$upscope $end
+
+
+$scope module dut $end
+$var wire 8 & in0 [7:0] $end
+$var wire 8 ' in1 [7:0] $end
+$var wire 1 ( en $end
+$var wire 16 ) out [15:0] $end
+$var reg 3 * sel $end
+$var reg 16 + y [15:0] $end
+$upscope $end
+
+$upscope $end
+
+
+$scope module UnitScopePackage_1 $end
+$upscope $end
+
+$enddefinitions $end
+$dumpvars
+bx !
+bx "
+x#
+bx $
+bx %
+bx &
+bx '
+x(
+bx )
+b0 *
+bx +
+$end
+#15
+b11000100 !
+b11111000 "
+1#
+b101 $
+b101 *
+1(
+b11111000 '
+b11000100 &
+b11111100 +
+b11111100 )
+b11111100 %
+#30
+b11011110 !
+b1001011 "
+b110 $
+b110 *
+b1001011 '
+b11011110 &
+b10010101 +
+b10010101 )
+b10010101 %
+#45
+b1100100 !
+b11001010 "
+b0 $
+b0 *
+b11001010 '
+b1100100 &
+b100101110 +
+b100101110 )
+b100101110 %
+#60
+b111110 !
+b11001101 "
+b10 $
+b10 *
+b11001101 '
+b111110 &
+b11111 +
+b11111 )
+b11111 %
+#75
+b110111 !
+b11100011 "
+b111 $
+b111 *
+b11100011 '
+b110111 &
+b1111111111001000 +
+b1111111111001000 )
+b1111111111001000 %
+#90
+b1101011 !
+b1011100 "
+b1 $
+b1 *
+b1011100 '
+b1101011 &
+b1111 +
+b1111 )
+b1111 %
+#105
+b11001110 !
+b10111110 "
+b11 $
+b11 *
+b10111110 '
+b11001110 &
+b110011100 +
+b110011100 )
+b110011100 %
+#120
+b10110101 !
+b11101001 "
+b100 $
+b100 *
+b11101001 '
+b10110101 &
+b10100001 +
+b10100001 )
+b10100001 %
+#160
